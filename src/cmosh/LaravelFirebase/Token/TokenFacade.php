@@ -1,4 +1,4 @@
-<?php namespace J42\LaravelFirebase;
+<?php namespace Cmosh\LaravelFirebase;
 
 use Illuminate\Support\Facades\Facade;
 

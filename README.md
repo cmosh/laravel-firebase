@@ -12,17 +12,17 @@ Add the following line to your `composer.json` and run composer update:
 
 	{
 	  "require": {
-	    "j42/laravel-firebase": "dev-master"
+	    "cmosh/laravel-firebase": "dev-master"
 	  }
 	}
 
 Then add the service providers and facades to `config/app.php`
 
-	'J42\LaravelFirebase\LaravelFirebaseServiceProvider',
+	'Cmosh\LaravelFirebase\LaravelFirebaseServiceProvider',
 
 ...
 
-	'Firebase'		  => 'J42\LaravelFirebase\LaravelFirebaseFacade'
+	'Firebase'		  => 'Cmosh\LaravelFirebase\LaravelFirebaseFacade'
 
 
 Access Tokens
@@ -140,7 +140,7 @@ class User extends Eloquent {
 #####Create a token manually
 
 ```php
-$FirebaseTokenGenerator = new J42\LaravelFirebase\FirebaseToken(FIREBASE_SECRET);
+$FirebaseTokenGenerator = new Cmosh\LaravelFirebase\FirebaseToken(FIREBASE_SECRET);
 $Firebase = App::make('firebase');
 
 $token = $FirebaseTokenGenerator->create($data, $options);

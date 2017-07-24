@@ -1,18 +1,14 @@
 {
     "name": "cmosh/laravel-firebase",
     "description": "A Firebase port for Laravel (4.2+)",
-    "authors": [
-        {
-            "name": "Clive Makamara",
-            "email": "clive@makamara.me"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/firebase/php-jwt"
-        }
-    ],
+    "authors": [{
+        "name": "Clive Makamara",
+        "email": "clive@makamara.me"
+    }],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/firebase/php-jwt"
+    }],
     "require": {
         "php": ">=5.4.0",
         "guzzlehttp/guzzle": "6.1.*",
@@ -23,7 +19,7 @@
             "src/cmosh"
         ],
         "psr-0": {
-            "cmosh\\LaravelFirebase": "src/cmosh/LaravelFirebase"
+            "Cmosh\\LaravelFirebase": "src/cmosh/LaravelFirebase"
         }
     },
     "config": {
