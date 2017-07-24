@@ -1,11 +1,10 @@
 {
-    "name": "j42/laravel-firebase",
+    "name": "cmosh/laravel-firebase",
     "description": "A Firebase port for Laravel (4.2+)",
     "authors": [
         {
-            "name": "Julian Aceves",
-            "email": "j@j42.me",
-            "homepage": "https://j42.me"
+            "name": "Clive Makamara",
+            "email": "clive@makamara.me"
         }
     ],
     "repositories": [
@@ -21,10 +20,10 @@
     },
     "autoload": {
         "classmap": [
-            "src/j42"
+            "src/cmosh"
         ],
         "psr-0": {
-            "J42\\LaravelFirebase": "src/j42/LaravelFirebase"
+            "cmosh\\LaravelFirebase": "src/cmosh/LaravelFirebase"
         }
     },
     "config": {
